@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <div className="relative h-48 w-48 overflow-hidden rounded-lg border border-slate-800 sm:h-56 sm:w-56">
               <Image
-                src="/images/mico-graduation1.jpg"
+                src="/personal-portfolio/images/mico-graduation1.jpg"
                 alt="Mico Jose at graduation"
                 fill
                 sizes="(min-width: 640px) 224px, 192px"
