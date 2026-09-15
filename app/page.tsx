@@ -114,6 +114,8 @@ export default function Home() {
               <li className="rounded-full bg-slate-800 px-3 py-1">
                 Tailwind CSS
               </li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">React</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">Next.js</li>
             </ul>
           </article>
 
@@ -122,6 +124,8 @@ export default function Home() {
             <ul className="mt-4 flex flex-wrap gap-2 text-sm text-slate-300">
               <li className="rounded-full bg-slate-800 px-3 py-1">Python</li>
               <li className="rounded-full bg-slate-800 px-3 py-1">Django</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">RestAPI</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">Django REST Framework</li>
             </ul>
           </article>
 
@@ -150,6 +154,9 @@ export default function Home() {
               <li className="rounded-full bg-slate-800 px-3 py-1">
                 Authentication/security fundamentals
               </li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">AI-Assisted Development</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">Codex</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">Cursor</li>
             </ul>
           </article>
         </div>
