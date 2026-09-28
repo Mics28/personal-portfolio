@@ -36,7 +36,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/mico-jose-resume.pdf"
+            href="/personal-portfolio/MicoAJose.pdf"
             className="rounded-md border border-slate-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:border-slate-400 hover:bg-slate-800"
           >
             Download Résumé
@@ -243,14 +243,14 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/mico-jose-0289b6433/"
+              href="https://www.linkedin.com/in/mico-jose/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border border-slate-800 bg-slate-900 p-5 transition-colors hover:border-slate-600 hover:bg-slate-800"
             >
               <span className="block font-semibold text-white">LinkedIn</span>
               <span className="mt-1 block text-sm text-slate-400">
-                https://www.linkedin.com/in/mico-jose-0289b6433/
+                https://www.linkedin.com/in/mico-jose/
               </span>
             </a>
 
@@ -265,7 +265,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/mico-jose-resume.pdf"
+              href="/personal-portfolio/MicoAJose.pdf"
               className="rounded-lg border border-slate-800 bg-slate-900 p-5 transition-colors hover:border-slate-600 hover:bg-slate-800"
             >
               <span className="block font-semibold text-white">Résumé</span>
@@ -296,7 +296,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/mico-jose-0289b6433/"
+              href="https://www.linkedin.com/in/mico-jose/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-sky-400"
