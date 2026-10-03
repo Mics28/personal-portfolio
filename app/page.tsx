@@ -111,11 +111,13 @@ export default function Home() {
               <li className="rounded-full bg-slate-800 px-3 py-1">
                 JavaScript
               </li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">TypeScript</li>
               <li className="rounded-full bg-slate-800 px-3 py-1">
                 Tailwind CSS
               </li>
               <li className="rounded-full bg-slate-800 px-3 py-1">React</li>
               <li className="rounded-full bg-slate-800 px-3 py-1">Next.js</li>
+              <li className="rounded-full bg-slate-800 px-3 py-1">HTML Canvas</li>
             </ul>
           </article>
 
@@ -193,6 +195,8 @@ export default function Home() {
             description="A responsive single-page developer portfolio built to present my Python and Django projects, skills, and contact details while learning modern frontend development."
             technologies={["Next.js", "React", "TypeScript", "Tailwind CSS"]}
             githubUrl="https://github.com/Mics28/personal-portfolio"
+            liveUrl="https://mics28.github.io/personal-portfolio/"
+            liveLabel="Visit Site"
           />
 
           <ProjectCard
@@ -208,6 +212,15 @@ export default function Home() {
             technologies={["Python", "Django", "Authentication", "Django testing"]}
             githubUrl="https://github.com/jeanjoellevillanueva/store_system/pull/33"
           />
+
+          <ProjectCard
+            title="Browser Arcade Game"
+            description="A browser-based arcade game built with HTML Canvas and React, featuring real-time game physics, collision detection, progressively increasing difficulty, score tracking, and persistent high scores using local storage."
+            technologies={["React", "Next.js", "TypeScript", "HTML Canvas", "Game Physics", "Local Storage"]}
+            githubUrl="https://github.com/Mics28/browser-arcade-game"
+            liveUrl="https://mico-flight-game.vercel.app/"
+          />
+
         </div>
       </section>
 

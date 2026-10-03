@@ -3,6 +3,8 @@ type ProjectCardProps = {
   description: string;
   technologies: string[];
   githubUrl: string;
+  liveUrl?: string;
+  liveLabel?: string;
 };
 
 export default function ProjectCard({
@@ -10,6 +12,8 @@ export default function ProjectCard({
   description,
   technologies,
   githubUrl,
+  liveUrl,
+  liveLabel = "Play Game",
 }: ProjectCardProps) {
   return (
     <article className="flex h-full flex-col rounded-lg border border-slate-800 bg-slate-900 p-6">
@@ -28,14 +32,27 @@ export default function ProjectCard({
         ))}
       </ul>
 
-      <a
-        href={githubUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-8 font-semibold text-sky-400 transition-colors hover:text-sky-300"
-      >
-        View on GitHub <span aria-hidden="true">→</span>
-      </a>
+      <div className="mt-8 flex flex-wrap items-center gap-4">
+        {liveUrl && (
+          <a
+            href={liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-md bg-sky-500 px-4 py-2 font-semibold text-slate-950 transition-colors hover:bg-sky-400"
+          >
+            {liveLabel} <span className="ml-2" aria-hidden="true">↗</span>
+          </a>
+        )}
+
+        <a
+          href={githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-sky-400 transition-colors hover:text-sky-300"
+        >
+          View on GitHub <span aria-hidden="true">→</span>
+        </a>
+      </div>
     </article>
   );
 }
